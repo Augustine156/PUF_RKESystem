@@ -15,6 +15,15 @@ if os.path.exists('remote_key_ids.txt'):
     with open('remote_key_ids.txt', 'r') as f:
         remote_key_ids = f.read().splitlines()
 
+def new_id_action():
+    print("in new id action")
+    return
+def registered_id_action():
+    print("in registered id action")
+    return
+
+
+
 # Function to handle new remote key IDs
 def handle_new_remote_key_id(remote_key_id):
     # Check if the maximum number of allowed remote key IDs has been reached
