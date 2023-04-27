@@ -31,7 +31,7 @@ def receive_message(key):
     return data.decode('utf-8')
 
 	
-
+sock = connect_to_server(SERVER_ADDRESS, PORT)
 
 send_message("ID", "12345")
 
