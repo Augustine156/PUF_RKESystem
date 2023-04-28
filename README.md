@@ -12,4 +12,4 @@ In this directory, two file trying to implement the simplest bluetooth data tran
 ## Registration Phase
 In this directory, two file can complete the registration following the instruction of paper
 
->[!danger] try
+However, we should modify it without sending and receiving dict type data for union
