@@ -1,5 +1,5 @@
 # Equippment Specs
-These are the Equippment and its price in our research
+
 
 | item                                      | price(USD) | usage                                     | amount |
 |-------------------------------------------|------------|-------------------------------------------|--------|
