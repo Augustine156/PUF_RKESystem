@@ -1,7 +1,7 @@
 # Equippment Specs
 These are the Equippment and its price in our research
 
-| item  | price(USD) | usage | amount
+| item  | price(USD) | usage | amount|
 |-------|-------|-------|
 |    MSI RTX 4090 SUPRIMX 24G   |       |  Machine Learning Model Training     | 1|
 |    Raspberry Pi 4   |       |    Simulattion of Key Fob and Car   | 3|
