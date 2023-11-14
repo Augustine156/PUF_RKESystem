@@ -4,7 +4,7 @@ In our machine learning model training, based on the results of our research pap
 
 ## 1. SignalGeneration.ipynb
 - Create signals to expand the dataset.
-- When conducting machine learning training, it's crucial to have a substantial and diverse set of LoRa transceivers to transmit signals. This provides enough varied training data when collected using HackRF One. To compensate for insufficient data, this notebook attempts to simulate LoRa-like signals with digital signals (.wav files) that have similarities and variations, aiming to enhance model accuracy during training. Adjusting different parameter values in this notebook will affect the waveform of the signals (verifiable using Universal Radio Hack).
+- When conducting machine learning training, it's crucial to have a substantial and diverse set of LoRa transceivers to transmit signals. This provides enough varied training data when collected using HackRF One. To compensate for insufficient data, this notebook attempts to simulate LoRa-like signals with digital signals (.wav files) that have similarities and variations, aiming to enhance model accuracy during training. Adjusting different parameter values in this notebook will affect the waveform of the signals (verifiable using Universal Radio Hacker).
 
 ## 2. SignalPreprocessing.ipynb
 - Preprocess the generated signals.
