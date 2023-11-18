@@ -48,6 +48,13 @@ You can install these libraries through pip or Virtual Environment:
 - tflite_runtime
 - librosa
 
+## Machine Learning Hardware Environment
+- **OS:** Ubuntu 23.04 LTS
+- **CPU:** Intel-7700
+- **Motherboard:** Asus Z270 Prime AR
+- **Memory:** 50GB
+- **GPU:** MSI RTX 4090 SUPRIMX 24G
+- **Power Supply:** NZXT C1200W
 
 ## Usage
 1. Use HackRF One to record signals of legal keys and other noise.
