@@ -1,47 +1,52 @@
-# Project Title
 
-A brief description of what this project does and who it's for.
+# PUF_RKESystem
+
+## Project Overview
+The PUF_RKESystem project implements a secure Remote Keyless Entry (RKE) System using Physically Unclonable Functions (PUFs). This approach aims to enhance the security of wireless communication systems by exploiting the unique, unclonable nature of PUFs.
 
 ## Features
-
-- Feature 1
-- Feature 2
-- Feature 3
+- Implementation of a PUF-based system for RKE.
+- Scripts for simulation and analysis of the system.
+- Demonstrates enhanced security in wireless communications.
 
 ## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+These instructions will help you get the project up and running on your local machine for development and testing.
 
 ### Prerequisites
+- Python 3.x
+- Additional Python libraries (list any specific libraries required)
 
-What things you need to install the software and how to install them.
+### Installation
+Clone the repository:
 
+```
+git clone https://github.com/Augustine156/PUF_RKESystem.git
+```
 
-### Installing
+Navigate to the project directory:
 
-A step by step series of examples that tell you how to get a development environment running.
+```
+cd PUF_RKESystem
+```
 
+Install the required Python libraries:
+
+```
+pip install -r requirements.txt
+```
 
 ## Usage
-
-Explain how to use your project.
+Instructions on how to use the system, including running simulations and analysis.
 
 ## Contributing
-
-Please read [CONTRIBUTING.md](#) for details on our code of conduct, and the process for submitting pull requests to us.
+Contributions are welcome! Please read [CONTRIBUTING.md](#) for details on submitting pull requests.
 
 ## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Special thanks to contributors and supporters of the project.
 
 ## References
-
-This project utilizes resources and insights from the following open-source projects:
-
-- **Nils Wisiol et al. (2023)**. *pypuf: A Python Library for PUF Simulation and Analysis*. GitHub repository. Available at: [https://github.com/nils-wisiol/pypuf](https://github.com/nils-wisiol/pypuf)
+This project uses insights from:
+- Nils Wisiol et al. (2023). pypuf: A Python Library for PUF Simulation and Analysis. GitHub repository. [https://github.com/nils-wisiol/pypuf](https://github.com/nils-wisiol/pypuf)
 
 ## License
-
-This project is licensed under the XYZ License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under [LICENSE.md](LICENSE.md).
