@@ -1,5 +1,0 @@
-
-# List your Python dependencies here
-# Example:
-# numpy
-# pandas
