@@ -13,7 +13,7 @@ We love your input! We want to make contributing to this project as easy and tra
 We use github to host code, to track issues and feature requests, as well as accept pull requests.
 
 ## Pull Requests
-- Fork the repo and create your branch from `master`.
+- Fork the repo and create your branch from `organized`.
 - If you've added code that should be tested, add tests.
 - Ensure the test suite passes.
 - Make sure your code lints.
