@@ -13,36 +13,52 @@ The PUF_RKESystem project implements a secure Remote Keyless Entry (RKE) System 
 These instructions will help you get the project up and running on your local machine for development and testing.
 
 ### Prerequisites
-- Python 3.x
-- Additional Python libraries (list any specific libraries required)
+- #### HackRF One Environment Build
+We run HackRF One on PC with Windows and Raspberry Pi. You can follow the instruction to complete the installation: [HackRf One Installation Guide](https://hackrf.readthedocs.io/en/latest/installing_hackrf_software.html?fbclid=IwAR3pvwzfmRGtWe3UFUfrN1YL7KmpVvhETajoP_9MeSHRMS5668RgjFfzu2I)
+- #### Machine Learning Environment Build
+- We recommend any developers to use Virtual Environment for the convinience of managing and installing packages whithin various versions: [Anaconda Installation on Linux](https://docs.anaconda.com/free/anaconda/install/linux/)
+- Tensorflow users should follow the installtion below: [Tensorflow Installation on Linux](https://www.tensorflow.org/lite/guide/python?fbclid=IwAR1atvxRhZ50hvUqw4LsZ7c6DscRYJ4AO43Y9VnlP6mlmXhv3hnYTFDXGpE)
+- Developers who use Nvidia Graphic Cards should install the Cuda and cudnn toolkit first:
+[Cuda](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html)
+[cudnn](https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html)
+- Developers who use Mac with M series need differnet way to install metal and tensorflow packages
+- #### Raspberry Pi Environment Build
+In addition to the Raspberry Pi OS installation, to run LoRa Transceiver on Raspberry Pi, you should follow the instruction below: [Blinka](https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi?fbclid=IwAR1B2d9Qf-4O9lRhFzS0N-B4NCXTMicfNOJ8ytc9hmf_QhU1tzEYn_HYqrg) [LoRa-Transceiver](https://learn.adafruit.com/adafruit-radio-bonnets/rfm9x-raspberry-pi-setup?fbclid=IwAR2l9JohbWHMphtdv4GU2kKuiA9427leZGG_OUh2MvQEcf4FuPfyeQ0Om9M)
+- #### Additional Python libraries 
+You can install these libraries through pip or Virtual Environment:
+- json
+- numpy
+- random
+- pypuf.io
+- pypuf.simulation
+- time
+- hashlib
+- busio
+- board
+- digitalio
+- pickle
+- adafruit_rfm9x
+- zlib
+- time
+- digitalio
+- adafruit_ssd1306
+- subprocess
+- os
+- pydub
+- tflite_runtime
+- librosa
 
-### Installation
-Clone the repository:
-
-```
-git clone https://github.com/Augustine156/PUF_RKESystem.git
-```
-
-Navigate to the project directory:
-
-```
-cd PUF_RKESystem
-```
-
-Install the required Python libraries:
-
-```
-pip install -r requirements.txt
-```
 
 ## Usage
-Instructions on how to use the system, including running simulations and analysis.
+1. Use HackRF One to record signals of legal keys and other noise.
+2. Trim all signals from step one to reduce hardware load.
+3. Train a machine learning model using the recorded legitimate signals and other noise.
+4. Install this model in the car.
+5. Conduct interactive testing with both the legitimate key and an attacker to verify the smooth operation of machine learning and Physical Unclonable Function (PUF).
+
 
 ## Contributing
 Contributions are welcome! Please read [CONTRIBUTING.md](#) for details on submitting pull requests.
-
-## Acknowledgments
-- Special thanks to contributors and supporters of the project.
 
 ## References
 This project uses insights from:
