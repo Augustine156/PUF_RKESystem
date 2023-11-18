@@ -197,9 +197,9 @@ A1_hex_dig = A1_hash_object.hexdigest()
 """
 send MA3
 """
-expiration_time = int(time.time()) + 1  # 例: 0.3秒後まで有効
+expiration_time = int(time.time()) + 3  # 例: 0.3秒後まで有効
 
-cmd = "lock"
+cmd = "unlock"
 combined_data = {
     'A1': A1_hex_dig,
     'Encrypted_Response': response_encrypted.tobytes().hex(),

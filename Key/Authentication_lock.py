@@ -50,7 +50,7 @@ def send_message(key, value):
 
 
 def receive_message(key):
-    print(f"Receiving {key} from Key to Car...")
+    print(f"Receiving {key} from Car to Key...")
     MAX_CHUNK_SIZE = 170  # Adjusted chunk size to match send_message
     received_data = b''
     while True:
@@ -197,13 +197,15 @@ A1_hex_dig = A1_hash_object.hexdigest()
 """
 send MA3
 """
+expiration_time = int(time.time()) + 3  # 例: 0.3秒後まで有効
 
-cmd = "unlock"
+cmd = "lock"
 combined_data = {
     'A1': A1_hex_dig,
     'Encrypted_Response': response_encrypted.tobytes().hex(),
     'Encrypted_Response_New': response_new_encrypted.tobytes().hex(),
-    'Command': cmd
+    'Command': cmd,
+    'ExpirationTime': expiration_time
 }
 combined_json = json.dumps(combined_data)
 compressed_data = zlib.compress(combined_json.encode('utf-8'))
