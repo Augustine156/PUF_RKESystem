@@ -1,7 +1,7 @@
 # Equippment Specs
 
 
-| item                                      | price(USD) | usage                                     | amount |
+| item                                      | price(USD)(one unit) | usage                                     | amount |
 |-------------------------------------------|------------|-------------------------------------------|--------|
 | MSI RTX 4090 SUPRIMX 24G                   |     2000       | Machine Learning Model Training           | 1      |
 | Raspberry Pi 4                            |      35      | Simulation of Key Fob and Car             | 3      |
