@@ -39,6 +39,12 @@ puf_BITS = 32
 puf_SEED = 1
 puf_SETS = 8
 
+def send_start_signal():
+    start_signal = b'start_recording'  # Replace with your specific signal
+    rfm9x.send(start_signal)
+    print("Start recording signal sent")
+
+
 def send_message(key, value):
     msg = f"Sending {key} from Key to Car..."
     print(msg)
@@ -92,10 +98,10 @@ message_data = {
     'ID': key_id,
     'Encrypted_Ni': Ni_encrypted.tobytes().hex()  # Convert bytes to hex string for JSON serialization
 }
-
+send_start_signal()
 # Convert the dictionary to a JSON string
 message_json = json.dumps(message_data)
-
+time.sleep(1.75)
 # Send the combined message
 send_message('MA1_data', message_json)
 
