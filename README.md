@@ -24,28 +24,26 @@ We run HackRF One on PC with Windows and Raspberry Pi. You can follow the instru
 4. Developers who use Mac with M series need differnet way to install metal and tensorflow packages
 - #### Raspberry Pi Environment Build
 In addition to the Raspberry Pi OS installation, to run LoRa Transceiver on Raspberry Pi, you should follow the instruction below: [Blinka](https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi?fbclid=IwAR1B2d9Qf-4O9lRhFzS0N-B4NCXTMicfNOJ8ytc9hmf_QhU1tzEYn_HYqrg) [LoRa-Transceiver](https://learn.adafruit.com/adafruit-radio-bonnets/rfm9x-raspberry-pi-setup?fbclid=IwAR2l9JohbWHMphtdv4GU2kKuiA9427leZGG_OUh2MvQEcf4FuPfyeQ0Om9M)
-- #### Additional Python libraries 
-You can install these libraries through pip or Virtual Environment:
-- json
-- numpy
-- random
-- pypuf
-- time
-- hashlib
-- busio
-- board
-- digitalio
-- pickle
-- adafruit_rfm9x
-- zlib
-- time
-- digitalio
-- adafruit_ssd1306
-- subprocess
-- os
-- pydub
-- tflite_runtime
-- librosa
+### Installation
+####Please do above step before doing this!
+Clone the repository:
+
+```
+git clone https://github.com/Augustine156/PUF_RKESystem.git
+```
+
+Navigate to the project directory:
+
+```
+cd PUF_RKESystem
+```
+
+Install the required Python libraries:
+
+```
+pip install -r requirements.txt
+```
+
 
 ## Machine Learning Hardware Environment
 - **OS:** Ubuntu 23.04 LTS
@@ -56,11 +54,10 @@ You can install these libraries through pip or Virtual Environment:
 - **Power Supply:** NZXT C1200W
 
 ## Usage
-1. Use HackRF One to record signals of legal keys and other noise.
-2. Trim all signals from step one to reduce hardware load.
-3. Train a machine learning model using the recorded legitimate signals and other noise.
-4. Install this model in the car.
-5. Conduct interactive testing with both the legitimate key and an attacker to verify the smooth operation of machine learning and Physical Unclonable Function (PUF).
+####Run both 'key(Registration).py' and 'car(Register).py' before running the authentication simulation!!
+1.Connect both Raspberry pi4 using SSH in IDE that you like.
+1.Run the 'car(Authentication).ipynb' in any IDE that you like and it support jupyter notebook format.
+2.Run the 'Key.ipynb' in any IDE that you like and it support jupyter notebook format.
 
 
 ## Contributing
