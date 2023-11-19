@@ -64,7 +64,7 @@ pip install -r requirements.txt
 
 
 ## Contributing
-Contributions are welcome! Please read [CONTRIBUTING.md](#) for details on submitting pull requests.
+Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on submitting pull requests.
 
 ## References
 This project uses insights from:
