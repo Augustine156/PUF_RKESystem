@@ -55,9 +55,12 @@ pip install -r requirements.txt
 
 ## Usage
 #### Run both 'key(Registration).py' and 'car(Register).py' before running the authentication simulation!!
+
 1.Connect both Raspberry pi4 using SSH in IDE that you like.
-1.Run the 'car(Authentication).ipynb' in any IDE that you like and it support jupyter notebook format.
-2.Run the 'Key.ipynb' in any IDE that you like and it support jupyter notebook format.
+
+2.Run the 'car(Authentication).ipynb' in any IDE that you like and it support jupyter notebook format.
+
+3.Run the 'Key.ipynb' in any IDE that you like and it support jupyter notebook format.
 
 
 ## Contributing
