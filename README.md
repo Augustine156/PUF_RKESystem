@@ -29,8 +29,7 @@ You can install these libraries through pip or Virtual Environment:
 - json
 - numpy
 - random
-- pypuf.io
-- pypuf.simulation
+- pypuf
 - time
 - hashlib
 - busio
