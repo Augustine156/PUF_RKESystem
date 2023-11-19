@@ -5,7 +5,7 @@
 |-------------------------------------------|------------|-------------------------------------------|--------|
 | MSI RTX 4090 SUPRIMX 24G                   |     2000       | Machine Learning Model Training           | 1      |
 | Raspberry Pi 4                            |      35      | Simulation of Key Fob and Car             | 3      |
-| Adafruit LoRa Radio Bonnet RFM96W @ 433MHz | 32.50      | LoRa Transceiver on Raspberry Pi           | 3      |
+| [Adafruit LoRa Radio Bonnet RFM96W @ 433MHz](https://www.adafruit.com/product/4075) | 32.50      | LoRa Transceiver on Raspberry Pi           | 3      |
 | ANT500                                    | 34.95      | Antenna detecting LoRa signal              | 3      |
 | SMA to uFL / u.FL / IPX / IPEX RF Adapter  | 3.95       | Cable connect Transceiver and Antenna      | 3      |
 | HackRF One                                |      350      | Signal Recording                          | 1      |
