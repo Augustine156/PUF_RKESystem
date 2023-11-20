@@ -20,7 +20,7 @@ We run HackRF One on PC with Windows and Raspberry Pi. You can follow the instru
 2. Tensorflow users should follow the installtion below: [Tensorflow Installation on Linux](https://www.tensorflow.org/lite/guide/python?fbclid=IwAR1atvxRhZ50hvUqw4LsZ7c6DscRYJ4AO43Y9VnlP6mlmXhv3hnYTFDXGpE)
 3. Developers who use Nvidia Graphic Cards should install the Cuda and cudnn toolkit first:
 [Cuda](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html)
-[cudnn](https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html)
+, [cudnn](https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html)
 4. Developers who use Mac with M series need differnet way to install metal and tensorflow packages
 - #### Raspberry Pi Environment Build
 In addition to the Raspberry Pi OS installation, to run LoRa Transceiver on Raspberry Pi, you should follow the instruction below: [Blinka](https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi?fbclid=IwAR1B2d9Qf-4O9lRhFzS0N-B4NCXTMicfNOJ8ytc9hmf_QhU1tzEYn_HYqrg), [LoRa-Transceiver](https://learn.adafruit.com/adafruit-radio-bonnets/rfm9x-raspberry-pi-setup?fbclid=IwAR2l9JohbWHMphtdv4GU2kKuiA9427leZGG_OUh2MvQEcf4FuPfyeQ0Om9M)
