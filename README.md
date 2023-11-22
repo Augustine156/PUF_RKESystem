@@ -68,7 +68,7 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for de
 
 ## References
 This project uses insights from:
-- Nils Wisiol et al. (2023). pypuf: A Python Library for PUF Simulation and Analysis. GitHub repository. [https://github.com/nils-wisiol/pypuf](https://github.com/nils-wisiol/pypuf)
+- Nils Wisiol, Christoph Gräbnitz, Christopher Mühl, Benjamin Zengin, Tudor Soroceanu, Niklas Pirnay, Khalid T. Mursi, & Adomas Baliuka. pypuf: Cryptanalysis of Physically Unclonable Functions (Version 2, June 2021). Zenodo. [https://doi.org/10.5281/zenodo.3901410](https://doi.org/10.5281/zenodo.3901410)
 
 ## License
 This project is licensed under [LICENSE.md](LICENSE.md).
