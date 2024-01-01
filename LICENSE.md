@@ -1,7 +1,7 @@
 
 MIT License
 
-Copyright (c) 2023 CANSEC-LAB
+Copyright (c) 2023 Cryptology and Network Security Lab 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
